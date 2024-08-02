@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
 
 html{
   scroll-behavior: smooth;
+  font-family: Nunito, sans-serif;
 }
 body{
-  font-family:'Merriweather', serif;
+  
   background-color: #000;
+  
 }
 
 #dispositivo{
@@ -108,7 +110,7 @@ body.loaded .hero-section {
   border-radius: 10px;
   background-color: #222; /* Fondo oscuro personalizado */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  height: 14rem;
+  height: 100%;
 }
 
 .benefit-item:hover {
@@ -118,7 +120,7 @@ body.loaded .hero-section {
 
 /* Estilos para los testimonios */
 .testimonial {
-  height: 21rem;
+  height: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
